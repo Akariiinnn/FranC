@@ -51,7 +51,6 @@
 #define faux false
 #define vaux =
 #define longueurde strlen
-#define nul NULL
 #define nouveau new
 #define supprimer delete
 #define zero memset
@@ -71,7 +70,6 @@
 #define entiercourt short int
 #define entiernonsigne unsigned int
 #define octetnonsigne unsigned char
-#define allouemem malloc
 
 // Stdio
 
@@ -133,6 +131,37 @@
 #define MAX_FOUVRE FOPEN_MAX
 
 // Stdlib
+#define nul NULL
 #define QUITTER_SUCCES EXIT_SUCCESS
+#define QUITTER_ECHEC EXIT_FAILURE
+#define ALEA_MAXIMAL RAND_MAX
+#define MO_CUR_MAXIMAL MB_CUR_MAX
+#define MO_TAI_MAXIMAL MB_LEN_MAX
+#define avef atof
+#define avee atoi
+#define avel atol
+#define chaved strtod
+#define chavel strtol
+#define chavensl strtoul
+#define allouec calloc
+#define realloue realloc
+#define allouemem malloc
+#define annule abort
+#define quandquitte atexit
+#define quitte exit
+#define avoirenv getenv
+#define systeme system
+#define bcherche bsearch
+#define trierq qsort
+#define absolu abs
+#define diviser div
+#define diviser_t div_t
+#define absolong labs
+#define absolonglong llabs
+#define divisierlong ldiv
+#define alea rand
+#define galea srand
+#define motai mblen
+#define movewc mbtowc
 
 #endif //UNTITLED_FRANC_H
