@@ -194,7 +194,7 @@
 // string.h
 #define caramem memchr
 #define memcopie memcpy
-#define memvouge memmove
+#define membouge memmove
 #define memmettre memset
 #define chacat strcat
 #define chaincat strncat
