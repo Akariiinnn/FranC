@@ -73,6 +73,10 @@
 #define entiercourt short int
 #define entiernonsigne unsigned int
 #define octetnonsigne unsigned char
+#define inferieur <
+#define superieur >
+#define inferieurouegal <=
+#define superieurouegal >=
 
 // Stdio
 
